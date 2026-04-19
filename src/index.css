@@ -1,0 +1,91 @@
+:root {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  font-weight: 400;
+
+  color-scheme: light;
+  color: #333333;
+  background: linear-gradient(135deg, #87CEEB 0%, #E0B0FF 50%, #FFD700 100%);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #6BB6FF;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  color: #4A9FFF;
+  text-decoration: underline;
+}
+
+button {
+  border-radius: 12px;
+  border: none;
+  padding: 0.8em 1.8em;
+  font-size: 1em;
+  font-weight: 600;
+  font-family: inherit;
+  background: linear-gradient(135deg, #6BB6FF 0%, #4A9FFF 100%);
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(107, 182, 255, 0.3);
+  letter-spacing: 0.3px;
+}
+
+button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(107, 182, 255, 0.5);
+  background: linear-gradient(135deg, #4A9FFF 0%, #2E8BE8 100%);
+}
+
+button:active {
+  transform: translateY(-1px);
+}
+
+button:focus,
+button:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(107, 182, 255, 0.4), 0 4px 15px rgba(107, 182, 255, 0.3);
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, #87CEEB 0%, #E0B0FF 50%, #FFD700 100%);
+  min-height: 100vh;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(173, 216, 230, 0.1);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(135deg, #6BB6FF 0%, #E0B0FF 100%);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(135deg, #4A9FFF 0%, #D090FF 100%);
+}
